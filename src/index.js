@@ -5,12 +5,16 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import UseStateExample from './state/useStateExample'
 import Main from './todo/Main';
+import Effect from './effect';
+import EffectExtn from './effect/effectExtn';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <UseStateExample /> 
-    <Main />
+    {/* <UseStateExample /> 
+    <Main /> */}
+    {/* <Effect/> */}
+    <EffectExtn/>
   </React.StrictMode>
 );
 
