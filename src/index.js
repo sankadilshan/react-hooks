@@ -7,6 +7,8 @@ import UseStateExample from './state/useStateExample'
 import Main from './todo/Main';
 import Effect from './effect';
 import EffectExtn from './effect/effectExtn';
+import Section from './contrxt/Section';
+import Contexts from './contrxt/Contexts';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -14,7 +16,8 @@ root.render(
     {/* <UseStateExample /> 
     <Main /> */}
     {/* <Effect/> */}
-    <EffectExtn/>
+    {/* <EffectExtn/> */}
+    <Contexts/>
   </React.StrictMode>
 );
 
